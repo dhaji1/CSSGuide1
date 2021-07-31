@@ -1,3 +1,3 @@
-## This website is an introduction to **CSS Selectors** 
+## This website is an introduction to **CSS Selectors.** 
 
-#### Made using html and css 
+#### Made using html and css.
