@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Selectors and Specificity</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>CSS Selectors and Specificity</h1>
+    <hr>
+    <table>
+      <thead>
+        <tr>
+          <th>Selector</th>
+          <th class="utility">Utility</th>
+          <th>Specificity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>element {}</td>
+          <td>Standard selector, selects one element of choice and modifies it within the curly braces.</td>
+          <td>Most common form of specificity, revolves around most recent changes</td>
+        </tr>
+        <tr>
+          <td>element, element {}</td>
+          <td>Selects all elements declared separated by a comma (,) and modifies them within the curly braces.</td>
+          <td>Most common form of specificity, revolves around most recent changes</td>
+        </tr>
+        <tr>
+          <td>element element {}</td>
+          <td>Selects the nested element within the first element and modifies it within the curly braces.</td>
+          <td>More specific than standard selectors due to nesting</td>
+        </tr>
+        <tr>
+          <td>.class {}</td>
+          <td>Selects all elements that hold a certain class, and modifies them within the curly braces.</td>
+          <td>More specific than standard selectors and nesting due to class attribute selection</td>
+        </tr>
+        <tr>
+          <td>#id {}</td>
+          <td>Selects all elements that hold a certain id, and modifies them within the curly braces.</td>
+          <td>More specific than all other selectors!</td>
+        </tr>
+      </tbody>
+      <tfooter>
+        <td colspan="3" class="footer">Thank you for visiting! Hope you learned more about css selectors from here. In addition to standard selector nesting, you can also nest elements with classes: (element class {}) or (class element) or select all specificied elements that have a certain class with chaining (element.class)</td>
+      </tfooter>
+    </table>
+  </body>
+</html>
